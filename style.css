@@ -1,6 +1,9 @@
 .container {
 }
 
+#timeCounter {
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -31,9 +34,18 @@
   background-color: lightgrey;
 }
 
-.btn {
+.homeButtonDiv {
   display: flex;
   justify-content: center;
+}
+
+.btn {
   padding: 20px;
   margin: 5%;
+  border-color: lightslategrey;
+  transition-duration: 600;
+}
+
+.btn:hover {
+  background-color: lightgray;
 }
