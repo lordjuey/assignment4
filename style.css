@@ -1,0 +1,39 @@
+.container {
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background-color: green;
+}
+.headerP {
+  color: white;
+  padding: 20px;
+}
+
+#highScorePage {
+  padding: 20px;
+  color: white;
+}
+.homeClass {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 2%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 4%;
+  width: 99%;
+  background-color: lightgrey;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 5%;
+}
