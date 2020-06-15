@@ -20,6 +20,10 @@
   padding: 2%;
 }
 
+#excuseMe {
+  opacity: 0.3;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -54,18 +58,35 @@
   padding: 5%;
 }
 
-.qAnswers {
-  display: flex;
-  flex-direction: column;
-  margin: 2%;
-}
-
 .answers {
   display: flex;
   border: 2px solid grey;
-  padding: auto;
-  width: 85%;
   margin: 2%;
+  margin-left: 20%;
+  padding: 1%;
+  width: 55%;
   transition-duration: 600;
   background-color: #e4f0e9;
+  justify-content: center;
+}
+
+.answer {
+  border: 4px dotted green;
+}
+.notAnswer {
+  border: 4px dotted red;
+}
+
+#score {
+  color: blue;
+}
+
+.saveBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.newDiv {
+  display: flex;
+  justify-content: center;
 }

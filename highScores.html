@@ -3,7 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>javascriptQuiz</title>
+    <link rel="styleSheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div>
+          <p class="headerP"><a id="highScorePage" href='index.html'>try quiz again</a></p>
+        </div>
+        <div>
+          <p class="headerP">Time:<span id="timeCounter">00</span></p>
+        </div>
+      </div>
+      <br />
+      <div class='homeContents'>
+        <div id="home" class="homeClass">
+          <h1>Hope you had fun with the quiz</h1>
+        </div>
+        <div class="homeClass">
+          <h4> You scored <span id ="score"> 00 </span> points</h4>
+        </div>
+        <br>
+        <div class="saveBtn">
+          <button id="saveTimeBtn">
+            click to save your score 
+          </button>
+        </div>
+        <br><br><br><br><br><br>
+        <div style="font-size: 20px; text-align: center;">
+          highScores
+        </div>
+        <br>
+        <div id="scoreList">
+
+        </div>
+        
+      </div>
+      </div> 
+    </div>
+
+    <footer class="footer">
+      <div class="footerDiv" style="text-align: center; padding: 1%;">
+        created by lordjuey
+      </div>
+    </footer>
+    <script src="highScores.js"></script>
+  </body>
 </html>
+
